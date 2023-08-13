@@ -1,0 +1,12 @@
+name: Views
+type: module
+description: 'Provides a framework to fetch information from the database and to display it in different formats.'
+package: Core
+# version: VERSION
+dependencies:
+  - drupal:filter
+
+# Information added by Drupal.org packaging script on 2023-08-02
+version: '10.1.2'
+project: 'drupal'
+datestamp: 1690972232
