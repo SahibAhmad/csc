@@ -1,0 +1,14 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+ .nav_callapse{
+    position: relative;
+    width:40%;
+    background-color: red;
+    color:yellow;
+    font-size: 4rem;
+}
+.navigation{
+    display: block;
+}
