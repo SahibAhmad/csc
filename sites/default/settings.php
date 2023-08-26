@@ -265,7 +265,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'cNwZGZdl-7BTR7evAkUxCPxiFpM8jhSTBriTtXfI6-323muZ-FFGwm5oXqzASCUertuC_CtAqA';
+$settings['hash_salt'] = 'tROWIpKXotnBoJN5eIljyGs0hc1PLF75-kkJqMxHlWaekG_l2KRIel-I7UZz1wv7Eo9LaH1HIA';
 
 /**
  * Deployment identifier.
@@ -861,7 +861,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'college',
+  'database' => 'nit2',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -872,4 +872,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_0176CwcijyKZxOZTTpJuSwJNGOLZL4p3diY-bTGlOAJYR0vZ_cqDKF84_Ym-p9h5ak_5nb0pOw/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_COMxV0L_CBqZSLN_t2KkdrUjDRb5-CDoP2tSj3d8zaAdhzTpJPr6OZDS8jy68Kk_YQq548y0mQ/sync';
